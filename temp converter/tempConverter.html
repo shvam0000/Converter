@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./tempConverter.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <div class="main-heading">
+            <h1>Temperature Converter</h1>
+        </div>
+    </header>
+
+    <form>
+        <div id="temperature-input">
+            <input type="number" name="temperature-input" id="input" step="any" placeholder="Enter the temperature in celcius: ">
+        </div>
+    </form>
+
+    <div id="output">
+        <div class="card">
+            <div class="card-block-1">
+                <h4>Kelvin: <span id="kelvinOutput"></span></h4>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-block-2">
+                <h4>Fahrenheit: <span id="fehrenheitOutput"></span></h4>
+                
+            </div>
+        </div>
+    </div>
+    <script src="tempConverter.js"></script>
+</body>
+</html>

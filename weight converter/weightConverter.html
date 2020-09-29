@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./weightConverter.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <header>
+        <div class="main-heading">
+            <h1>Weight Converter</h1>
+        </div>
+    </header>
+
+    <form>
+        <div id="weight-input">
+            <input type="number" name="weight-input" id="input" step="any" placeholder="Enter the weight in kilograms">
+        </div>
+    </form>
+
+    <div id="output">
+        <div class="card">
+            <div class="card-block-1">
+                <h4>Grams: <span id="gramsOutput"></span></h4>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-block-2">
+                <h4>Pounds: <span id="poundsOutput"></span></h4>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-block-3">
+                <h4>Ounces: <span id="oucesOutput"></span></h4>
+            </div>
+        </div>
+    </div>
+    <script src="weightConverter.js"></script>
+</body>
+</html>

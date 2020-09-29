@@ -1,0 +1,57 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    line-height: 1.6em;
+    font-size: 16px;
+    margin: 0px;
+    background: linear-gradient(90deg, #38c7ee 0%, #101d91 100%);
+}
+
+.main-heading {
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 20px;
+    color: wheat;
+}
+
+#currency-input {
+    margin: 10px 530px;    
+}
+
+#input {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+.card-block-1 {
+    border: 0.0001px solid #01d135;
+    border-radius: 15px;
+    margin: 5px 500px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    min-width: 150px;
+    background: #01d135;
+}
+
+.card-block-2 {
+    border: 0.0001px solid rgb(31, 175, 38);
+    border-radius: 15px;
+    margin: 5px 500px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    background: rgb(31, 175, 38);
+}
+
+.card-block-3 {
+    border: 0.0001px solid #048b0b;
+    border-radius: 15px;
+    margin: 5px 500px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    background: #048b0b;
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    line-height: 1.6em;
+    font-size: 16px;
+    margin: 0px;
+    background: linear-gradient(90deg, #38c7ee 0%, #101d91 100%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-heading {
+    margin: 20px 570px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.weight-converter {
+    min-width: 150px;
+    border-radius: 15px;
+    margin: 5px 450px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #ee879c;
+}
+
+.currency-converter {
+    min-width: 150px;
+    border-radius: 15px;
+    margin: 5px 450px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #ed8383;
+}
+.temp-converter {
+    min-width: 150px;
+    border-radius: 15px;
+    margin: 5px 450px;
+    padding: 20px;
+    text-align: center;
+    background: #ef3c23;
+    font-size: 1.2rem;
+}
+.time-converter {
+    border-radius: 15px;
+    margin: 5px 450px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #f15a42;
+}
+
+.weight-converter:hover , .time-converter:hover, .temp-converter:hover, .currency-converter:hover {
+    background: brown;
+}
