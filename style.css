@@ -31,7 +31,7 @@ a:hover {
     padding: 20px;
     text-align: center;
     font-size: 1.2rem;
-    background: #ee879c;
+    background: #ed8383;
 }
 
 .currency-converter {
@@ -41,7 +41,7 @@ a:hover {
     padding: 20px;
     text-align: center;
     font-size: 1.2rem;
-    background: #ed8383;
+    background: #ee879c;
 }
 .temp-converter {
     min-width: 150px;
@@ -49,7 +49,7 @@ a:hover {
     margin: 5px 450px;
     padding: 20px;
     text-align: center;
-    background: #ef3c23;
+    background: #f15a42;
     font-size: 1.2rem;
 }
 .time-converter {
@@ -58,9 +58,9 @@ a:hover {
     padding: 20px;
     text-align: center;
     font-size: 1.2rem;
-    background: #f15a42;
+    background: #ef3c23;
 }
 
 .weight-converter:hover , .time-converter:hover, .temp-converter:hover, .currency-converter:hover {
-    background: brown;
+    background: dark brown;
 }
